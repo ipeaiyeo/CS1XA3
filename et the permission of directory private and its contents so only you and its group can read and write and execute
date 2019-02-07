@@ -1,0 +1,54 @@
+[33mcommit 9b5c21b0ce8e27bab01bbed8d8f0cec163cec329[m
+Merge: 8708b1a bdf5a3a
+Author: ipeaiyeo <ipeaiyeo@mac1xa3.ca>
+Date:   Sat Feb 2 04:09:37 2019 +0000
+
+    Merged beta to alpha
+
+[33mcommit 8708b1a9b4467f328a7ee871d2356da0f5878365[m
+Author: ipeaiyeo <ipeaiyeo@mac1xa3.ca>
+Date:   Sat Feb 2 03:55:26 2019 +0000
+
+    Edit 1a of set_permissions.sh
+
+[33mcommit bdf5a3a8cd8d30a14171199d7fd77a8e763d442b[m
+Author: ipeaiyeo <ipeaiyeo@mac1xa3.ca>
+Date:   Sat Feb 2 03:48:14 2019 +0000
+
+    Edit 1b of set_permissions.sh
+
+[33mcommit e752346ba8c13de63b180204981f1c9dec527212[m
+Author: ipeaiyeo <ipeaiyeo@mac1xa3.ca>
+Date:   Sat Feb 2 03:11:55 2019 +0000
+
+    Edit 1a of set_permissions.sh
+
+[33mcommit 4a9f17ff07c7a487d2f4fbeb6c98c1f51ece2fe3[m
+Author: ipeaiyeo <ipeaiyeo@mac1xa3.ca>
+Date:   Sat Feb 2 02:36:10 2019 +0000
+
+    Edit one of set_permissions.sh
+
+[33mcommit 54cb82077d3dd2cf1639dff4ea40745a3a3c8b02[m
+Author: Some Guy <someguy@example.com>
+Date:   Fri Feb 1 17:25:24 2019 +0000
+
+    Initialized Repo
+
+[33mcommit 6e3d50ff1ba930e0ba4e49c90d9a0d8b19df4a5e[m
+Author: Some Guy <someguy@example.com>
+Date:   Thu Jan 31 17:09:31 2019 +0000
+
+    remove file5.txt
+
+[33mcommit 105bfb1c1aa9faf1cc7ec8b7a6ed590fac9b68c3[m
+Author: Some Guy <someguy@example.com>
+Date:   Tue Jan 29 17:02:31 2019 +0000
+
+    add Hello World
+
+[33mcommit 0f2a14e0cdfca576048031cf4abf8ffb5dd6249c[m
+Author: ipeaiyeo <46681548+ipeaiyeo@users.noreply.github.com>
+Date:   Mon Jan 14 10:19:32 2019 -0500
+
+    Initial commit
