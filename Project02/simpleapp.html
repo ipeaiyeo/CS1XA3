@@ -1,0 +1,71 @@
+<html>
+<head>
+<style>p.indent{ padding-bottom: 1.6em }</style>
+<title>Oluwatobi's Simple App</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<svg viewBox="0 0 160 160" width="100" height="100">
+    <circle cx="80" cy="80" r="50" />
+    <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+        <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="white">
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="3s" repeatCount="indefinite" />
+        </path>
+    </g>
+    <path d="M 50,0 A 50,50 0 0,0 -50,0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" />
+    <text fill="#ffffff" font-size="12" font-family="Verdana"
+  x="43" y="86">CONVERTER</text>
+</svg>
+
+<h1 style="color:white"><centre>Length Converter</centre></h1>
+
+<p style="color: white; font-size: 25">Type a value: </p>
+
+<p>
+  <label style="color: red">Meter:</label>
+  <input id="Meters" type="number" placeholder="" oninput="Converter(this.value)" onchange="Converter(this.value)"/>
+</p>
+<p style="color:blanchedalmond">Feet: <span id="Feets"></span></p>
+
+<p class="indent"></p>
+
+<p>
+  <label style="color: red">Meter:</label>
+  <input id="Meters" type="number" placeholder="" oninput="InchConverter(this.value)" onchange="InchConverter(this.value)">
+</p>
+<p style="color:blanchedalmond">Inch: <span id="Inches"></span></p>
+
+<p class="indent"></p>
+
+<p>
+  <label style="color: red">Meter:</label>
+  <input id="Meters" type="number" placeholder="" oninput="CentConverter(this.value)" onchange="CentConverter(this.value)">
+</p>
+<p style="color:blanchedalmond">Centimeter: <span id="Centimeters"></span></p>
+
+<p class="indent"></p>
+
+<p>
+  <label style="color: red">Meter:</label>
+  <input id="Meters" type="number" placeholder="" oninput="KiloConverter(this.value)" onchange="KiloConverter(this.value)">
+</p>
+<p style="color:blanchedalmond">Kilometer: <span id="Kilometers"></span></p>
+
+<script>  
+
+function Converter(values) {
+  document.getElementById("Feets").innerHTML=values*3.2808;
+}
+function InchConverter(inchValues) {
+  document.getElementById("Inches").innerHTML=inchValues*39.370;
+}
+function CentConverter(centValues) {
+  document.getElementById("Centimeters").innerHTML=centValues/0.01;
+}
+function KiloConverter(kiloValues) {
+  document.getElementById("Kilometers").innerHTML=kiloValues/1000;
+}
+</script>
+</body>
+</html>
