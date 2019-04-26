@@ -46,3 +46,8 @@ def usersInfo(request):
         return HttpResponse("Logged Out")
     else:
         return HttpResponse("Welcome back " + request.user.first_name)
+
+def authOnly(request):
+    user = request.user
+    if user.is_authenticated:
+        HttpResponse("Authenticated User Information")
